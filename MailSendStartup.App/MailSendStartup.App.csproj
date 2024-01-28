@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Batch\VbScriptNotificationPcScheduledTask.vbs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Batch\NotificationPcScheduledTask.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Batch\VbScriptNotificationPcScheduledTask.vbs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Configuration\Json\emailConfiguration.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
