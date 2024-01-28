@@ -1,0 +1,5 @@
+{
+  "FromPhoneNumber": "",
+  "ToPhoneNumber": "",
+  "Content": "Hello,\nSomeone has opened your PC \"__EMO_PC_NAME__\" on __EMO_OPENED_DATE__\nRegards,\nSmsSendPcOpened"
+}

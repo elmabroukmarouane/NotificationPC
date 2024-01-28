@@ -1,0 +1,8 @@
+{
+  "SmtpServer": "smtp.gmail.com",
+  "SmtpPort": 587,
+  "SmtpUsername": "",
+  "SmtpPassword": "",
+  "EnableSsl": true,
+  "UseDefaultCredentials":  false
+}

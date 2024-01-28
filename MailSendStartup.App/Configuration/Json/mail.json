@@ -1,0 +1,16 @@
+{
+  "ToAddresses": [
+    {
+      "Name": "",
+      "Address": ""
+    }
+  ],
+  "FromAddresses": [
+    {
+      "Name": "",
+      "Address": ""
+    }
+  ],
+  "Subject": "PC \"__EMO_PC_NAME__\" Opened on __EMO_OPENED_DATE__",
+  "Content": "Hello,<br /><br />Someone has opened your PC \"__EMO_PC_NAME__\" on __EMO_OPENED_DATE__<br /><br />Have a nice day.<br />Regards,<br />MailSendPcOpened"
+}
