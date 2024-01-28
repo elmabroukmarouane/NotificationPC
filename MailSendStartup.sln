@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailSendStartup.App", "MailSendStartup.App\MailSendStartup.App.csproj", "{21C6B3CA-E5A5-4A7B-B057-30CCE1236733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendConfiguration.App", "SendConfiguration.App\SendConfiguration.App.csproj", "{9254AFDE-EEEE-4810-B143-216E044E9E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendConfiguration.App", "SendConfiguration.App\SendConfiguration.App.csproj", "{9254AFDE-EEEE-4810-B143-216E044E9E39}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NotificationPc", "NotificationPc\NotificationPc.vdproj", "{9EB043AE-12E4-404F-97EA-185AB39CFD8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{9254AFDE-EEEE-4810-B143-216E044E9E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9254AFDE-EEEE-4810-B143-216E044E9E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9254AFDE-EEEE-4810-B143-216E044E9E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EB043AE-12E4-404F-97EA-185AB39CFD8F}.Debug|Any CPU.ActiveCfg = Debug
+		{9EB043AE-12E4-404F-97EA-185AB39CFD8F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

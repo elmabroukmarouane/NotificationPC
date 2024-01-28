@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
@@ -151,7 +152,7 @@
             tabControl1.Controls.Add(tabPage7);
             tabControl1.Controls.Add(tabPage8);
             tabControl1.Location = new Point(36, 121);
-            tabControl1.Margin = new Padding(2, 2, 2, 2);
+            tabControl1.Margin = new Padding(2);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
             tabControl1.Size = new Size(1272, 574);
@@ -162,9 +163,9 @@
             tabPage1.Controls.Add(groupBox5);
             tabPage1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             tabPage1.Location = new Point(4, 24);
-            tabPage1.Margin = new Padding(2, 2, 2, 2);
+            tabPage1.Margin = new Padding(2);
             tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(2, 2, 2, 2);
+            tabPage1.Padding = new Padding(2);
             tabPage1.Size = new Size(1264, 546);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Email Configuration";
@@ -179,9 +180,9 @@
             groupBox5.Controls.Add(label2);
             groupBox5.Controls.Add(smtpUsername);
             groupBox5.Location = new Point(18, 17);
-            groupBox5.Margin = new Padding(2, 2, 2, 2);
+            groupBox5.Margin = new Padding(2);
             groupBox5.Name = "groupBox5";
-            groupBox5.Padding = new Padding(2, 2, 2, 2);
+            groupBox5.Padding = new Padding(2);
             groupBox5.Size = new Size(1228, 109);
             groupBox5.TabIndex = 9;
             groupBox5.TabStop = false;
@@ -190,7 +191,7 @@
             // modifierEmailConfiguration
             // 
             modifierEmailConfiguration.Location = new Point(486, 35);
-            modifierEmailConfiguration.Margin = new Padding(2, 2, 2, 2);
+            modifierEmailConfiguration.Margin = new Padding(2);
             modifierEmailConfiguration.Name = "modifierEmailConfiguration";
             modifierEmailConfiguration.Size = new Size(211, 47);
             modifierEmailConfiguration.TabIndex = 10;
@@ -201,7 +202,7 @@
             // loadEmailConfigurationButton
             // 
             loadEmailConfigurationButton.Location = new Point(986, 35);
-            loadEmailConfigurationButton.Margin = new Padding(2, 2, 2, 2);
+            loadEmailConfigurationButton.Margin = new Padding(2);
             loadEmailConfigurationButton.Name = "loadEmailConfigurationButton";
             loadEmailConfigurationButton.Size = new Size(211, 47);
             loadEmailConfigurationButton.TabIndex = 4;
@@ -222,7 +223,7 @@
             // smtpPassword
             // 
             smtpPassword.Location = new Point(132, 64);
-            smtpPassword.Margin = new Padding(2, 2, 2, 2);
+            smtpPassword.Margin = new Padding(2);
             smtpPassword.Name = "smtpPassword";
             smtpPassword.PlaceholderText = "Password";
             smtpPassword.Size = new Size(330, 23);
@@ -241,7 +242,7 @@
             // smtpUsername
             // 
             smtpUsername.Location = new Point(132, 32);
-            smtpUsername.Margin = new Padding(2, 2, 2, 2);
+            smtpUsername.Margin = new Padding(2);
             smtpUsername.Name = "smtpUsername";
             smtpUsername.PlaceholderText = "Username";
             smtpUsername.Size = new Size(330, 23);
@@ -251,9 +252,9 @@
             // 
             tabPage2.Controls.Add(groupBox4);
             tabPage2.Location = new Point(4, 24);
-            tabPage2.Margin = new Padding(2, 2, 2, 2);
+            tabPage2.Margin = new Padding(2);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(2, 2, 2, 2);
+            tabPage2.Padding = new Padding(2);
             tabPage2.Size = new Size(1264, 546);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "SMS Configuration";
@@ -268,9 +269,9 @@
             groupBox4.Controls.Add(twilioAccountSid);
             groupBox4.Controls.Add(label5);
             groupBox4.Location = new Point(18, 17);
-            groupBox4.Margin = new Padding(2, 2, 2, 2);
+            groupBox4.Margin = new Padding(2);
             groupBox4.Name = "groupBox4";
-            groupBox4.Padding = new Padding(2, 2, 2, 2);
+            groupBox4.Padding = new Padding(2);
             groupBox4.Size = new Size(1228, 109);
             groupBox4.TabIndex = 8;
             groupBox4.TabStop = false;
@@ -279,7 +280,7 @@
             // modifierSmsConfiguration
             // 
             modifierSmsConfiguration.Location = new Point(485, 35);
-            modifierSmsConfiguration.Margin = new Padding(2, 2, 2, 2);
+            modifierSmsConfiguration.Margin = new Padding(2);
             modifierSmsConfiguration.Name = "modifierSmsConfiguration";
             modifierSmsConfiguration.Size = new Size(211, 47);
             modifierSmsConfiguration.TabIndex = 12;
@@ -290,7 +291,7 @@
             // loadSmsConfigurationButton
             // 
             loadSmsConfigurationButton.Location = new Point(985, 35);
-            loadSmsConfigurationButton.Margin = new Padding(2, 2, 2, 2);
+            loadSmsConfigurationButton.Margin = new Padding(2);
             loadSmsConfigurationButton.Name = "loadSmsConfigurationButton";
             loadSmsConfigurationButton.Size = new Size(211, 47);
             loadSmsConfigurationButton.TabIndex = 11;
@@ -301,7 +302,7 @@
             // twilioAuthToken
             // 
             twilioAuthToken.Location = new Point(130, 63);
-            twilioAuthToken.Margin = new Padding(2, 2, 2, 2);
+            twilioAuthToken.Margin = new Padding(2);
             twilioAuthToken.Name = "twilioAuthToken";
             twilioAuthToken.PlaceholderText = "Token";
             twilioAuthToken.Size = new Size(330, 23);
@@ -320,7 +321,7 @@
             // twilioAccountSid
             // 
             twilioAccountSid.Location = new Point(130, 32);
-            twilioAccountSid.Margin = new Padding(2, 2, 2, 2);
+            twilioAccountSid.Margin = new Padding(2);
             twilioAccountSid.Name = "twilioAccountSid";
             twilioAccountSid.PlaceholderText = "Account SID";
             twilioAccountSid.Size = new Size(330, 23);
@@ -344,7 +345,7 @@
             tabPage3.Controls.Add(groupBox2);
             tabPage3.Controls.Add(groupBox1);
             tabPage3.Location = new Point(4, 24);
-            tabPage3.Margin = new Padding(2, 2, 2, 2);
+            tabPage3.Margin = new Padding(2);
             tabPage3.Name = "tabPage3";
             tabPage3.Size = new Size(1264, 546);
             tabPage3.TabIndex = 2;
@@ -354,7 +355,7 @@
             // updateEMailMessageButton
             // 
             updateEMailMessageButton.Location = new Point(265, 475);
-            updateEMailMessageButton.Margin = new Padding(2, 2, 2, 2);
+            updateEMailMessageButton.Margin = new Padding(2);
             updateEMailMessageButton.Name = "updateEMailMessageButton";
             updateEMailMessageButton.Size = new Size(211, 47);
             updateEMailMessageButton.TabIndex = 14;
@@ -365,7 +366,7 @@
             // loadEMailMessageButton
             // 
             loadEMailMessageButton.Location = new Point(765, 475);
-            loadEMailMessageButton.Margin = new Padding(2, 2, 2, 2);
+            loadEMailMessageButton.Margin = new Padding(2);
             loadEMailMessageButton.Name = "loadEMailMessageButton";
             loadEMailMessageButton.Size = new Size(211, 47);
             loadEMailMessageButton.TabIndex = 13;
@@ -380,9 +381,9 @@
             groupBox3.Controls.Add(emailSubject);
             groupBox3.Controls.Add(label11);
             groupBox3.Location = new Point(22, 253);
-            groupBox3.Margin = new Padding(2, 2, 2, 2);
+            groupBox3.Margin = new Padding(2);
             groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new Padding(2, 2, 2, 2);
+            groupBox3.Padding = new Padding(2);
             groupBox3.Size = new Size(1218, 200);
             groupBox3.TabIndex = 12;
             groupBox3.TabStop = false;
@@ -391,7 +392,7 @@
             // emailMessage
             // 
             emailMessage.Location = new Point(125, 56);
-            emailMessage.Margin = new Padding(2, 2, 2, 2);
+            emailMessage.Margin = new Padding(2);
             emailMessage.Multiline = true;
             emailMessage.Name = "emailMessage";
             emailMessage.PlaceholderText = "Message";
@@ -411,7 +412,7 @@
             // emailSubject
             // 
             emailSubject.Location = new Point(125, 22);
-            emailSubject.Margin = new Padding(2, 2, 2, 2);
+            emailSubject.Margin = new Padding(2);
             emailSubject.Name = "emailSubject";
             emailSubject.PlaceholderText = "Subject";
             emailSubject.Size = new Size(330, 23);
@@ -434,9 +435,9 @@
             groupBox2.Controls.Add(toAddressName);
             groupBox2.Controls.Add(label9);
             groupBox2.Location = new Point(22, 131);
-            groupBox2.Margin = new Padding(2, 2, 2, 2);
+            groupBox2.Margin = new Padding(2);
             groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new Padding(2, 2, 2, 2);
+            groupBox2.Padding = new Padding(2);
             groupBox2.Size = new Size(1218, 94);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
@@ -445,7 +446,7 @@
             // toAddressAddress
             // 
             toAddressAddress.Location = new Point(125, 56);
-            toAddressAddress.Margin = new Padding(2, 2, 2, 2);
+            toAddressAddress.Margin = new Padding(2);
             toAddressAddress.Name = "toAddressAddress";
             toAddressAddress.PlaceholderText = "Address";
             toAddressAddress.Size = new Size(330, 23);
@@ -464,7 +465,7 @@
             // toAddressName
             // 
             toAddressName.Location = new Point(125, 22);
-            toAddressName.Margin = new Padding(2, 2, 2, 2);
+            toAddressName.Margin = new Padding(2);
             toAddressName.Name = "toAddressName";
             toAddressName.PlaceholderText = "Name";
             toAddressName.Size = new Size(330, 23);
@@ -487,9 +488,9 @@
             groupBox1.Controls.Add(fromAddressName);
             groupBox1.Controls.Add(label7);
             groupBox1.Location = new Point(22, 17);
-            groupBox1.Margin = new Padding(2, 2, 2, 2);
+            groupBox1.Margin = new Padding(2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(2, 2, 2, 2);
+            groupBox1.Padding = new Padding(2);
             groupBox1.Size = new Size(1218, 94);
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
@@ -498,7 +499,7 @@
             // fromAddressAddress
             // 
             fromAddressAddress.Location = new Point(125, 56);
-            fromAddressAddress.Margin = new Padding(2, 2, 2, 2);
+            fromAddressAddress.Margin = new Padding(2);
             fromAddressAddress.Name = "fromAddressAddress";
             fromAddressAddress.PlaceholderText = "Address";
             fromAddressAddress.Size = new Size(330, 23);
@@ -517,7 +518,7 @@
             // fromAddressName
             // 
             fromAddressName.Location = new Point(125, 22);
-            fromAddressName.Margin = new Padding(2, 2, 2, 2);
+            fromAddressName.Margin = new Padding(2);
             fromAddressName.Name = "fromAddressName";
             fromAddressName.PlaceholderText = "Name";
             fromAddressName.Size = new Size(330, 23);
@@ -539,7 +540,7 @@
             tabPage4.Controls.Add(loadSmsMessageButton);
             tabPage4.Controls.Add(groupBox6);
             tabPage4.Location = new Point(4, 24);
-            tabPage4.Margin = new Padding(2, 2, 2, 2);
+            tabPage4.Margin = new Padding(2);
             tabPage4.Name = "tabPage4";
             tabPage4.Size = new Size(1264, 546);
             tabPage4.TabIndex = 3;
@@ -549,7 +550,7 @@
             // updateSmsMessageButton
             // 
             updateSmsMessageButton.Location = new Point(257, 337);
-            updateSmsMessageButton.Margin = new Padding(2, 2, 2, 2);
+            updateSmsMessageButton.Margin = new Padding(2);
             updateSmsMessageButton.Name = "updateSmsMessageButton";
             updateSmsMessageButton.Size = new Size(211, 47);
             updateSmsMessageButton.TabIndex = 16;
@@ -560,7 +561,7 @@
             // loadSmsMessageButton
             // 
             loadSmsMessageButton.Location = new Point(757, 338);
-            loadSmsMessageButton.Margin = new Padding(2, 2, 2, 2);
+            loadSmsMessageButton.Margin = new Padding(2);
             loadSmsMessageButton.Name = "loadSmsMessageButton";
             loadSmsMessageButton.Size = new Size(211, 47);
             loadSmsMessageButton.TabIndex = 15;
@@ -577,9 +578,9 @@
             groupBox6.Controls.Add(fromNumberPhone);
             groupBox6.Controls.Add(label12);
             groupBox6.Location = new Point(28, 20);
-            groupBox6.Margin = new Padding(2, 2, 2, 2);
+            groupBox6.Margin = new Padding(2);
             groupBox6.Name = "groupBox6";
-            groupBox6.Padding = new Padding(2, 2, 2, 2);
+            groupBox6.Padding = new Padding(2);
             groupBox6.Size = new Size(1209, 256);
             groupBox6.TabIndex = 0;
             groupBox6.TabStop = false;
@@ -588,7 +589,7 @@
             // smsMessage
             // 
             smsMessage.Location = new Point(168, 112);
-            smsMessage.Margin = new Padding(2, 2, 2, 2);
+            smsMessage.Margin = new Padding(2);
             smsMessage.Multiline = true;
             smsMessage.Name = "smsMessage";
             smsMessage.PlaceholderText = "Message";
@@ -608,7 +609,7 @@
             // toNumberPhone
             // 
             toNumberPhone.Location = new Point(168, 67);
-            toNumberPhone.Margin = new Padding(2, 2, 2, 2);
+            toNumberPhone.Margin = new Padding(2);
             toNumberPhone.Name = "toNumberPhone";
             toNumberPhone.PlaceholderText = "To #Phone";
             toNumberPhone.Size = new Size(332, 23);
@@ -627,7 +628,7 @@
             // fromNumberPhone
             // 
             fromNumberPhone.Location = new Point(168, 29);
-            fromNumberPhone.Margin = new Padding(2, 2, 2, 2);
+            fromNumberPhone.Margin = new Padding(2);
             fromNumberPhone.Name = "fromNumberPhone";
             fromNumberPhone.PlaceholderText = "From #Phone";
             fromNumberPhone.Size = new Size(332, 23);
@@ -647,7 +648,7 @@
             // 
             tabPage5.Controls.Add(groupBox7);
             tabPage5.Location = new Point(4, 24);
-            tabPage5.Margin = new Padding(2, 2, 2, 2);
+            tabPage5.Margin = new Padding(2);
             tabPage5.Name = "tabPage5";
             tabPage5.Size = new Size(1264, 546);
             tabPage5.TabIndex = 4;
@@ -662,9 +663,9 @@
             groupBox7.Controls.Add(smsChannelRadio);
             groupBox7.Controls.Add(mailChannelRadio);
             groupBox7.Location = new Point(23, 18);
-            groupBox7.Margin = new Padding(2, 2, 2, 2);
+            groupBox7.Margin = new Padding(2);
             groupBox7.Name = "groupBox7";
-            groupBox7.Padding = new Padding(2, 2, 2, 2);
+            groupBox7.Padding = new Padding(2);
             groupBox7.Size = new Size(1219, 146);
             groupBox7.TabIndex = 0;
             groupBox7.TabStop = false;
@@ -673,7 +674,7 @@
             // loadNotificationChannelButton
             // 
             loadNotificationChannelButton.Location = new Point(974, 51);
-            loadNotificationChannelButton.Margin = new Padding(2, 2, 2, 2);
+            loadNotificationChannelButton.Margin = new Padding(2);
             loadNotificationChannelButton.Name = "loadNotificationChannelButton";
             loadNotificationChannelButton.Size = new Size(211, 47);
             loadNotificationChannelButton.TabIndex = 15;
@@ -684,7 +685,7 @@
             // updateNotificationChannelButton
             // 
             updateNotificationChannelButton.Location = new Point(470, 51);
-            updateNotificationChannelButton.Margin = new Padding(2, 2, 2, 2);
+            updateNotificationChannelButton.Margin = new Padding(2);
             updateNotificationChannelButton.Name = "updateNotificationChannelButton";
             updateNotificationChannelButton.Size = new Size(211, 47);
             updateNotificationChannelButton.TabIndex = 16;
@@ -696,7 +697,7 @@
             // 
             mailSmsChannelRadio.AutoSize = true;
             mailSmsChannelRadio.Location = new Point(34, 100);
-            mailSmsChannelRadio.Margin = new Padding(2, 2, 2, 2);
+            mailSmsChannelRadio.Margin = new Padding(2);
             mailSmsChannelRadio.Name = "mailSmsChannelRadio";
             mailSmsChannelRadio.Size = new Size(144, 19);
             mailSmsChannelRadio.TabIndex = 3;
@@ -709,7 +710,7 @@
             // 
             smsChannelRadio.AutoSize = true;
             smsChannelRadio.Location = new Point(34, 67);
-            smsChannelRadio.Margin = new Padding(2, 2, 2, 2);
+            smsChannelRadio.Margin = new Padding(2);
             smsChannelRadio.Name = "smsChannelRadio";
             smsChannelRadio.Size = new Size(95, 19);
             smsChannelRadio.TabIndex = 2;
@@ -722,7 +723,7 @@
             // 
             mailChannelRadio.AutoSize = true;
             mailChannelRadio.Location = new Point(34, 34);
-            mailChannelRadio.Margin = new Padding(2, 2, 2, 2);
+            mailChannelRadio.Margin = new Padding(2);
             mailChannelRadio.Name = "mailChannelRadio";
             mailChannelRadio.Size = new Size(95, 19);
             mailChannelRadio.TabIndex = 1;
@@ -735,7 +736,7 @@
             // 
             tabPage6.Controls.Add(groupBox8);
             tabPage6.Location = new Point(4, 24);
-            tabPage6.Margin = new Padding(2, 2, 2, 2);
+            tabPage6.Margin = new Padding(2);
             tabPage6.Name = "tabPage6";
             tabPage6.Size = new Size(1264, 546);
             tabPage6.TabIndex = 5;
@@ -749,9 +750,9 @@
             groupBox8.Controls.Add(smsLockedNo);
             groupBox8.Controls.Add(smsLockedYes);
             groupBox8.Location = new Point(24, 18);
-            groupBox8.Margin = new Padding(2, 2, 2, 2);
+            groupBox8.Margin = new Padding(2);
             groupBox8.Name = "groupBox8";
-            groupBox8.Padding = new Padding(2, 2, 2, 2);
+            groupBox8.Padding = new Padding(2);
             groupBox8.Size = new Size(1219, 121);
             groupBox8.TabIndex = 1;
             groupBox8.TabStop = false;
@@ -760,7 +761,7 @@
             // loadSmsLockedButton
             // 
             loadSmsLockedButton.Location = new Point(930, 33);
-            loadSmsLockedButton.Margin = new Padding(2, 2, 2, 2);
+            loadSmsLockedButton.Margin = new Padding(2);
             loadSmsLockedButton.Name = "loadSmsLockedButton";
             loadSmsLockedButton.Size = new Size(211, 47);
             loadSmsLockedButton.TabIndex = 17;
@@ -771,7 +772,7 @@
             // updateSmsLockedButton
             // 
             updateSmsLockedButton.Location = new Point(426, 33);
-            updateSmsLockedButton.Margin = new Padding(2, 2, 2, 2);
+            updateSmsLockedButton.Margin = new Padding(2);
             updateSmsLockedButton.Name = "updateSmsLockedButton";
             updateSmsLockedButton.Size = new Size(211, 47);
             updateSmsLockedButton.TabIndex = 18;
@@ -783,7 +784,7 @@
             // 
             smsLockedNo.AutoSize = true;
             smsLockedNo.Location = new Point(34, 66);
-            smsLockedNo.Margin = new Padding(2, 2, 2, 2);
+            smsLockedNo.Margin = new Padding(2);
             smsLockedNo.Name = "smsLockedNo";
             smsLockedNo.Size = new Size(41, 19);
             smsLockedNo.TabIndex = 2;
@@ -796,7 +797,7 @@
             // 
             smsLockedYes.AutoSize = true;
             smsLockedYes.Location = new Point(34, 33);
-            smsLockedYes.Margin = new Padding(2, 2, 2, 2);
+            smsLockedYes.Margin = new Padding(2);
             smsLockedYes.Name = "smsLockedYes";
             smsLockedYes.Size = new Size(42, 19);
             smsLockedYes.TabIndex = 1;
@@ -810,7 +811,7 @@
             tabPage7.Controls.Add(groupBox10);
             tabPage7.Controls.Add(groupBox9);
             tabPage7.Location = new Point(4, 24);
-            tabPage7.Margin = new Padding(2, 2, 2, 2);
+            tabPage7.Margin = new Padding(2);
             tabPage7.Name = "tabPage7";
             tabPage7.Size = new Size(1264, 546);
             tabPage7.TabIndex = 6;
@@ -824,9 +825,9 @@
             groupBox10.Controls.Add(label16);
             groupBox10.Controls.Add(label15);
             groupBox10.Location = new Point(24, 170);
-            groupBox10.Margin = new Padding(2, 2, 2, 2);
+            groupBox10.Margin = new Padding(2);
             groupBox10.Name = "groupBox10";
-            groupBox10.Padding = new Padding(2, 2, 2, 2);
+            groupBox10.Padding = new Padding(2);
             groupBox10.Size = new Size(1219, 141);
             groupBox10.TabIndex = 3;
             groupBox10.TabStop = false;
@@ -836,7 +837,7 @@
             // 
             textBox2.Cursor = Cursors.Hand;
             textBox2.Location = new Point(34, 86);
-            textBox2.Margin = new Padding(2, 2, 2, 2);
+            textBox2.Margin = new Padding(2);
             textBox2.Name = "textBox2";
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(285, 23);
@@ -849,7 +850,7 @@
             // 
             textBox1.Cursor = Cursors.Hand;
             textBox1.Location = new Point(34, 35);
-            textBox1.Margin = new Padding(2, 2, 2, 2);
+            textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
             textBox1.Size = new Size(285, 23);
@@ -887,9 +888,9 @@
             groupBox9.Controls.Add(applicationIsEnableNoRadio);
             groupBox9.Controls.Add(applicationIsEnableYesRadio);
             groupBox9.Location = new Point(24, 20);
-            groupBox9.Margin = new Padding(2, 2, 2, 2);
+            groupBox9.Margin = new Padding(2);
             groupBox9.Name = "groupBox9";
-            groupBox9.Padding = new Padding(2, 2, 2, 2);
+            groupBox9.Padding = new Padding(2);
             groupBox9.Size = new Size(1219, 121);
             groupBox9.TabIndex = 2;
             groupBox9.TabStop = false;
@@ -898,7 +899,7 @@
             // loadApplicationIsEnableButton
             // 
             loadApplicationIsEnableButton.Location = new Point(930, 33);
-            loadApplicationIsEnableButton.Margin = new Padding(2, 2, 2, 2);
+            loadApplicationIsEnableButton.Margin = new Padding(2);
             loadApplicationIsEnableButton.Name = "loadApplicationIsEnableButton";
             loadApplicationIsEnableButton.Size = new Size(211, 47);
             loadApplicationIsEnableButton.TabIndex = 17;
@@ -909,7 +910,7 @@
             // updateApplicationIsEnableButton
             // 
             updateApplicationIsEnableButton.Location = new Point(426, 33);
-            updateApplicationIsEnableButton.Margin = new Padding(2, 2, 2, 2);
+            updateApplicationIsEnableButton.Margin = new Padding(2);
             updateApplicationIsEnableButton.Name = "updateApplicationIsEnableButton";
             updateApplicationIsEnableButton.Size = new Size(211, 47);
             updateApplicationIsEnableButton.TabIndex = 18;
@@ -921,7 +922,7 @@
             // 
             applicationIsEnableNoRadio.AutoSize = true;
             applicationIsEnableNoRadio.Location = new Point(34, 66);
-            applicationIsEnableNoRadio.Margin = new Padding(2, 2, 2, 2);
+            applicationIsEnableNoRadio.Margin = new Padding(2);
             applicationIsEnableNoRadio.Name = "applicationIsEnableNoRadio";
             applicationIsEnableNoRadio.Size = new Size(41, 19);
             applicationIsEnableNoRadio.TabIndex = 2;
@@ -934,7 +935,7 @@
             // 
             applicationIsEnableYesRadio.AutoSize = true;
             applicationIsEnableYesRadio.Location = new Point(34, 33);
-            applicationIsEnableYesRadio.Margin = new Padding(2, 2, 2, 2);
+            applicationIsEnableYesRadio.Margin = new Padding(2);
             applicationIsEnableYesRadio.Name = "applicationIsEnableYesRadio";
             applicationIsEnableYesRadio.Size = new Size(42, 19);
             applicationIsEnableYesRadio.TabIndex = 1;
@@ -949,7 +950,7 @@
             tabPage8.Controls.Add(leftToRight);
             tabPage8.Controls.Add(label17);
             tabPage8.Location = new Point(4, 24);
-            tabPage8.Margin = new Padding(2, 2, 2, 2);
+            tabPage8.Margin = new Padding(2);
             tabPage8.Name = "tabPage8";
             tabPage8.Size = new Size(1264, 546);
             tabPage8.TabIndex = 7;
@@ -959,7 +960,7 @@
             // rightToLeft
             // 
             rightToLeft.Location = new Point(724, 281);
-            rightToLeft.Margin = new Padding(2, 2, 2, 2);
+            rightToLeft.Margin = new Padding(2);
             rightToLeft.Name = "rightToLeft";
             rightToLeft.Size = new Size(244, 46);
             rightToLeft.TabIndex = 2;
@@ -970,7 +971,7 @@
             // leftToRight
             // 
             leftToRight.Location = new Point(291, 281);
-            leftToRight.Margin = new Padding(2, 2, 2, 2);
+            leftToRight.Margin = new Padding(2);
             leftToRight.Name = "leftToRight";
             leftToRight.Size = new Size(244, 46);
             leftToRight.TabIndex = 1;
@@ -1012,7 +1013,8 @@
             Controls.Add(label1);
             Controls.Add(tabControl1);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
-            Margin = new Padding(2, 2, 2, 2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(2);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Send Configuration";
